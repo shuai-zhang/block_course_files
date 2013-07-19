@@ -134,7 +134,7 @@ function improve_timecreated($timecreated) {
 
 // Make license more readable
 function improve_license($license) {
-    if($license = 'allrightsreserved')
+    if($license == 'allrightsreserved')
         $license = 'All rights reserved';
     return $license;
 }
